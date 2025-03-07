@@ -2,7 +2,7 @@
     <img alt="Gobarber" src="DecolaTech.png" width="250px" />
 </h1>
 
-Este repositório é utilizado para o boodcamp DeCola Tech Avanade para riando uma API REST Documentada com Spring Web e Swagger.
+Este repositório é utilizado para o bootcamp DeCola Tech Avanade para a criação de uma API REST Documentada com Spring Web e Swagger.
 
 <p align="center">
   <a href="#authors">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
