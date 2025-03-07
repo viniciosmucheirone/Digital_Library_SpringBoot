@@ -1,6 +1,7 @@
 # Digital_Library_SpringBoot
 
 
+```mermaid
 classDiagram
     class Pessoa {
         +Long id
@@ -35,3 +36,4 @@ classDiagram
     Pessoa "1" -- "0..*" StatusLivro : registra
     Livro "1" -- "0..*" StatusLivro : está associado a
     Autor "1" -- "0..*" Livro : escreve
+```
