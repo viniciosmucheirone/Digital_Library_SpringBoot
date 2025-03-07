@@ -7,6 +7,7 @@ classDiagram
         +Long id
         +String nome
         +String email
+        +String senha
     }
 
     class Autor {
@@ -14,11 +15,18 @@ classDiagram
         +String nome
     }
 
+    class Editora {
+        +Long id
+        +String nome
+        +String endereco
+    }
+
     class Livro {
         +Long id
         +String titulo
         +String descricao
         +List<Autor> autores
+        +Editora editora
     }
 
     class StatusLivro {
@@ -36,4 +44,6 @@ classDiagram
     Pessoa "1" -- "0..*" StatusLivro : registra
     Livro "1" -- "0..*" StatusLivro : está associado a
     Autor "1" -- "0..*" Livro : escreve
+    Livro "1" -- "1" Editora : publicado por
+
 ```
