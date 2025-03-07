@@ -3,47 +3,48 @@
 
 ```mermaid
 classDiagram
-    class Pessoa {
+    class Person {
         +Long id
-        +String nome
+        +String name
         +String email
-        +String senha
+        +String password
     }
 
-    class Autor {
+    class Author {
         +Long id
-        +String nome
+        +String name
     }
 
-    class Editora {
+    class Publisher {
         +Long id
-        +String nome
-        +String endereco
+        +String name
+        +String address
     }
 
-    class Livro {
+    class Book {
         +Long id
-        +String titulo
-        +String descricao
-        +List<Autor> autores
-        +Editora editora
+        +String title
+        +String description
+        +List<Author> authors
+        +Publisher publisher
     }
 
-    class StatusLivro {
+    class BookStatus {
         +Long id
         +Enum status
-        +Date dataRegistro
-        +Integer avaliacao
-        +String comentario
-        +Integer prioridade
-        +String motivo
-        +Pessoa pessoa
-        +Livro livro
+        +Date registrationDate
+        +Integer rating
+        +String comment
+        +Integer priority
+        +String reason
+        +Person person
+        +Book book
     }
 
-    Pessoa "1" -- "0..*" StatusLivro : registra
-    Livro "1" -- "0..*" StatusLivro : está associado a
-    Autor "1" -- "0..*" Livro : escreve
-    Livro "1" -- "1" Editora : publicado por
+    Person "1" -- "0..*" BookStatus : registers
+    Book "1" -- "0..*" BookStatus : is associated with
+    Author "1" -- "0..*" Book : writes
+    Book "1" -- "1" Publisher : published by
+
 
 ```
