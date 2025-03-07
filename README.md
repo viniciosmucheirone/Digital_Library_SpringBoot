@@ -1,5 +1,19 @@
-# O PROJETO Digital_Library_SpringBoot 
-## Criando uma API REST Documentada com Spring Web e Swagger
+<h1 align="center">
+    <img alt="Gobarber" src="DecolaTech.png" width="250px" />
+</h1>
+
+Este repositório é utilizado para o boodcamp DeCola Tech Avanade para riando uma API REST Documentada com Spring Web e Swagger.
+
+<p align="center">
+  <a href="#authors">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#about">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tech_utilizadas">Tecnologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#installd">Tecnologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#app">Acesso à aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#app">Planejamento</a>
+</p>
+
+
 ### Fluxograma
 ```mermaid
 classDiagram
